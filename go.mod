@@ -1,13 +1,13 @@
 module github.com/pluralsh/polly
 
-go 1.22.0
+go 1.23
 
-toolchain go1.23.0
+toolchain go1.23.4
 
 require (
 	github.com/Masterminds/sprig/v3 v3.3.0
 	github.com/cenkalti/backoff v2.2.1+incompatible
-	github.com/osteele/liquid v1.4.0
+	github.com/osteele/liquid v1.6.0
 	github.com/samber/lo v1.47.0
 	github.com/stretchr/testify v1.8.1
 )
